@@ -1,10 +1,9 @@
 return {
-  {
-    "folke/tokyonight.nvim",
-    lazy = false,
-    priority = 1000,
-    config = function()
-      vim.cmd.colorscheme("tokyonight")
-    end,
-  }
+    {
+        "yorumicolors/yorumi.nvim",
+        name = "yorumi",
+        init = function()
+            vim.cmd.colorscheme("yorumi")
+        end,
+    },
 }
